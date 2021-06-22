@@ -1,0 +1,189 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>Censo3</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=.;Persist Security Info=True;Password=;User ID=;Initial Catalog=Censo3</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Beneficios</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Clasificacion</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Pertenencia Poblacional</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Salario</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Datos Trabajo Actual</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Gestion Negocio Trabajo</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Balance</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Estado Persona</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Nivel Educativo</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Trabajo Actual</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Sgda Ocupacion</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Estado Laboral</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Persona</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Curso</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Disponibilidad</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Trabajo Anterior</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Area</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Datos Estadisticos</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Desea Trabajar</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Trabajo Persona</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Traslado Trabajo</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Reside Trabajo</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Cuenta Propia</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Reside</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Gestion</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Reside 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Cuenta Propia 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Reside Trabajo 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Traslado Trabajo 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Trabajo Persona 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Desea Trabajar 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Datos Estadisticos 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Trabajo Anterior 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Disponibilidad 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Curso 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Estado Laboral 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Sgda Ocupacion 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Trabajo Actual 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Nivel Educativo 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Estado Persona 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Balance 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Gestion Negocio Trabajo 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Datos Trabajo Actual 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Salario 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Pertenencia Poblacional 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Clasificacion 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Beneficios 1</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Censo3</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Panel De Hogar</ID>
+            <Partitions>
+              <Partition>
+                <ID>Panel De Hogar</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Censo3 1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Panel De Hogar</ID>
+            <Partitions>
+              <Partition>
+                <ID>Panel De Hogar</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

@@ -1,0 +1,390 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ProyectoMultidimensional1</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>JIbe5vx2KUrSsjO4ilbeKAlicdg=16/06/2021 13:58:3116/06/2021 13:09:26</TimeStamp>
+        <ID>
+          <String>Censo3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>8W7AwuQ97UAUitsDNXZL8pWRw/8=16/06/2021 13:10:2016/06/2021 13:10:18</TimeStamp>
+        <ID>
+          <String>Censo3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WY2Flr6AntfT3hCsTgQo+iT6RHQ=16/06/2021 13:11:0916/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Beneficios</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wjMUQ8GGqM7+/OljFPb4TPQ7K5Q=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Clasificacion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1Qlt12nSiCsimkUWNK0Bol40qgM=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Pertenencia Poblacional</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IdaHhakqS7ku1Z0eNPatM+QymOg=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Salario</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WO7NPI2Auu77FlwlzkmSqKR/hC8=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Datos Trabajo Actual</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yVjEzj4cnmB7rHZgdVylYwf4P4w=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Gestion Negocio Trabajo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>peYxrS8ArgoywoUYALT2uiikD6E=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Balance</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HW0t86y9YxijgP6kAtPXpNBA0nY=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Estado Persona</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OvnFRcJg+XsRVOShrpSLgD3qGWY=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Nivel Educativo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eifSVB6doZaiE2DoEtRl9XP34z8=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Trabajo Actual</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tIhxH6oy2aZ3sj+38XRJ4KTeoPw=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Sgda Ocupacion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2Pj+Q0qgggcTJ23BztNtsEa2/qo=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Estado Laboral</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7+7J7xaA/hDVPUfz6CF+X8wbqTs=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Persona</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sFoUKg3m35X3euJUeZ7ilJ7v7BU=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Curso</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SKfhQ+mfjUgTBxFSiFaA3eq1eEM=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Disponibilidad</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lLLkmSpxzbd9B3wmiIS22VjzAv8=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Trabajo Anterior</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>c4J5mzeilU1g3eiXvZnVN89/37M=16/06/2021 14:45:1216/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Area</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LaXLclI9Ojam0u3CICSzwac+c0I=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Datos Estadisticos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k2ek6ZraANj7E6eBOzSgqwaLGDs=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Desea Trabajar</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>417FAij+2rPTiQetCbZqniYYQmI=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Trabajo Persona</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y0M16MeLv4kaZ6ONg5oXQr/GNts=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Traslado Trabajo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lkj6CPzZKflJTUDV22JAdxJdcGY=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Reside Trabajo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lFSvaHP9Z8qApUZPd7CM+ObgFfk=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Cuenta Propia</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vjogau7jdYXjk5DvCuu0c8XDMSI=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Reside</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+fNm3SRmBxjQdZfCYhm9dVJX0rU=16/06/2021 13:11:1016/06/2021 13:11:09</TimeStamp>
+        <ID>
+          <String>Gestion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9Og9PRgUmcI/ZFV9yXhV8unIWrI=16/06/2021 14:41:5916/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Reside 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5EjwmSNAB4Mi1yIkfyiotaIWfV4=16/06/2021 14:41:5916/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Cuenta Propia 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BIs2ebyI68dKRhpThjgzsy9Yju4=16/06/2021 14:41:5916/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Reside Trabajo 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>71Prr130W2Cb2wXAijJ33I563og=16/06/2021 14:41:5916/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Traslado Trabajo 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0GqL8Et7QtDwQfaeEmVVLZOp6r8=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Trabajo Persona 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0X7boQe59kc17GW20GDPb5MJcwY=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Desea Trabajar 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+5Yw4FIUD0VVhFY4PXYW5atF7B8=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Datos Estadisticos 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HLSEl87ARtLTmboWdvXVZoSXaSw=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Trabajo Anterior 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>R8kojxkcGcVeYT8mrOIB33FdjhI=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Disponibilidad 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2KNBy0ZUTeBzXOfzfqk6w6UFz9k=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Curso 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Tiyt5XOs0IRAl2X80YOe+g2qb8g=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Estado Laboral 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7usGtw3cKIInve19y8ObmTyCkfg=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Sgda Ocupacion 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+lc9UiMfaPa4yxzKtoE/YTHiFRU=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Trabajo Actual 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AWAzisa3YwjU/mWU4mkCjTpXDYs=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Nivel Educativo 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PZ2joIymdHMt6gNrgZJMUyPcmiA=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Estado Persona 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>J8c/kp1EKxbpTtji1aYEAP2uZRM=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Balance 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uvv2LOXwY/OZ4dp4j757jG295ak=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Gestion Negocio Trabajo 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NvmPQy7W2DGqY9pfmJFHTZDE/FU=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Datos Trabajo Actual 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L7VoyGy//QoI5DdrB2LOisPXuKI=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Salario 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jCFF08inqQwt2bzMmYMqduV2Eak=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Pertenencia Poblacional 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>muIi2kS2Dnug1EP8K6iqhZHQKxU=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Clasificacion 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2XWZD3mWcXhfpa/lB6dHXb6F3wU=16/06/2021 14:42:0016/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Beneficios 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>qmhZX4UuiUVgWuz+BB85TIWISsI=16/06/2021 14:45:1216/06/2021 13:11:08m9Nc9tv1regumUHzdvH6UUo/j3o=16/06/2021 13:11:0916/06/2021 13:11:08</TimeStamp>
+        <ID>
+          <String>Censo3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ssm8GH0kmcskwRJvYELYubITbfA=16/06/2021 14:45:1216/06/2021 14:41:5748Di/5cjl3kYr3XsT0qyTH2tt8c=16/06/2021 14:41:5916/06/2021 14:41:58</TimeStamp>
+        <ID>
+          <String>Censo3 1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>PhRwefgkWlh+PJjqVPZ7s0wrwNY=16/06/2021 13:06:4816/06/2021 13:06:47</TimeStamp>
+      <ID>
+        <String>ProyectoMultidimensional1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-06-22T06:15:49.316667Z</LastDeployed>
+</DeploymentSnapshot>
